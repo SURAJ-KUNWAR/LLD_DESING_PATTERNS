@@ -1,2 +1,6 @@
 “We use the Strategy pattern when we have multiple ways of performing the same operation and we want to switch the behavior at runtime without using if-else conditions.
 “We use the Observer pattern when a change in one object should automatically notify and update multiple dependent objects.”
+We use Singleton when only one instance is required across the application.
+We use Builder when an object has many parameters and needs validation while maintaining immutability.
+We use Prototype when object creation is costly and cloning improves performance.
+We use Factory when we want to hide object creation logic and achieve loose coupling by programming to interfaces.
