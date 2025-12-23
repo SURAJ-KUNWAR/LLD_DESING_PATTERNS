@@ -4,3 +4,4 @@ We use Singleton when only one instance is required across the application.
 We use Builder when an object has many parameters and needs validation while maintaining immutability.
 We use Prototype when object creation is costly and cloning improves performance.
 We use Factory when we want to hide object creation logic and achieve loose coupling by programming to interfaces.
+“We use the Adapter pattern when we want to make an existing class work with a client without modifying its code by mapping its methods to the interface expected by the client.”
